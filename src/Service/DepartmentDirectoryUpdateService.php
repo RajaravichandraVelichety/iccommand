@@ -11,7 +11,7 @@ use Symfony\Component\Validator\ConstraintViolationList;
  * The redirect service is used primary for deleting redirects, getting redirect
  * permissions of users, and validating.
  */
-class DepartmentDirectoryService {
+class DepartmentDirectoryUpdateService {
   private $container;
 
   /**

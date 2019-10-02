@@ -16,9 +16,9 @@ calendar:
     resource: App\Controller\Api\CalendarController
     prefix: /api/calendar/
 
-departmentDirectory:
+departmentDirectoryUpdates:
     type: rest
-    resource: App\Controller\Api\DepartmentDirectory\DepartmentDirectoryController
+    resource: App\Controller\Api\DepartmentDirectoryUpdate\DepartmentDirectoryUpdateController
     prefix: /api/
 
 emails_api:

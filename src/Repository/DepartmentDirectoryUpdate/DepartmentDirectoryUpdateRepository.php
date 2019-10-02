@@ -1,5 +1,5 @@
 <?php
-namespace App\Repository\DepartmentDirectory;
+namespace App\Repository\DepartmentDirectoryUpdate;
 
 // use App\Entity\Redirect\Redirect;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
@@ -12,7 +12,7 @@ use Symfony\Bridge\Doctrine\RegistryInterface;
  * @method Redirect[]    findAll()
  * @method Redirect[]    findBy(array $criteria, array $orderBy = null, $limit = null, $offset = null)
  */
-class DepartmentDirectoryRepository extends ServiceEntityRepository {
+class DepartmentDirectoryUpdateRepository extends ServiceEntityRepository {
   /*
    * The constructor of the repository of the redirects.
    * @param RegistryInterface $registry The referer that references Doctrine
