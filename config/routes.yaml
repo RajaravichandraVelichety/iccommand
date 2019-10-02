@@ -16,6 +16,11 @@ calendar:
     resource: App\Controller\Api\CalendarController
     prefix: /api/calendar/
 
+departmentDirectory:
+    type: rest
+    resource: App\Controller\Api\DepartmentDirectory\DepartmentDirectoryController
+    prefix: /api/
+
 emails_api:
     type: rest
     resource: App\Controller\Api\EmailController
