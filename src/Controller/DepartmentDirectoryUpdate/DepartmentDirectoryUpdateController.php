@@ -1,27 +1,27 @@
 <?php
 
-namespace App\Controller\DepartmentDirectory;
+namespace App\Controller\DepartmentDirectoryUpdate;
 
 // use App\Entity\Redirect\Redirect;
-use App\Service\DepartmentDirectoryService;
+use App\Service\DepartmentDirectoryUpdateService;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Security;
 
-class DepartmentDirectoryController extends Controller
+class DepartmentDirectoryUpdateController extends Controller
 {
     private $service;
 
-    public function __construct(DepartmentDirectoryService $service){
+    public function __construct(DepartmentDirectoryUpdateService $service){
         $this->service = $service;
     }
 
     /**
-     * @Route("/map", name="map_index")
+     * @Route("/departmentdirectoryupdate", name="department_directory_update_index")
      */
     public function index()
     {
-      return $this->render('department_directory/index.html.twig', []);
+      return $this->render('department_directory_update/index.html.twig', []);
     }
 
     /**
