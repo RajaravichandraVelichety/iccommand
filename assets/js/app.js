@@ -69,6 +69,9 @@ Vue.component("map-index", require("./components/map/MapIndex.vue").default);
 Vue.component("map-item-form", require("./components/map/MapItemForm.vue").default);
 Vue.component("new-map-item", require("./components/map/NewMapItem.vue").default);
 
+/* Department Directory Update Application */
+Vue.component("department-directory-update-index", require("./components/departmentdirectoryupdate/DepartmentDirectoryUpdateIndex.vue").default);
+
 /* Multimedia Requests */
 Vue.component("multimedia-assignee-form", require("./components/multimediarequest/AssigneeForm.vue").default);
 Vue.component("multimedia-assignee-index", require("./components/multimediarequest/AssigneeIndex.vue").default);
