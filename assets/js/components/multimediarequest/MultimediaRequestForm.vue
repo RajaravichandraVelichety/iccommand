@@ -731,7 +731,7 @@
 <script>
     import MultimediarequestDeleteModal from './MultimediarequestDeleteModal.vue'
     import Heading from '../utils/Heading.vue'
-    import Multiselect from 'vue-multiselect'
+    // import Multiselect from 'vue-multiselect'
     import NotFound from '../utils/NotFound.vue'
     import Flatpickr from 'vue-flatpickr-component'
     import 'flatpickr/dist/flatpickr.css'
